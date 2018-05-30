@@ -14,8 +14,8 @@ This playbook is for creating and configuring EC2 Instance on AWS Account using 
  2. Verify connectivity to the EC2 server.
  3. In the terminal on the machine hosting Ansible, clone this repo.
  4. Cd into the directory, and run:
- `ansible-playbook ec2sample.yml`
+ `ansible-playbook ec2sam.yml`
  
  The plays in the playbook will run on the target server, installing ELK and the specified beats shippers. 
  
-[site.yml]: https://github.com/DanielBerman/ansible-elk-playbook/blob/master/site.yml
+[ec2sam.yml]: https://github.com/smarthardwork/Project3/blob/master/ec2sam.yml
